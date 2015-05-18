@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("\u0027package2\\developer.feature\u0027");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("\u0027developer.feature\u0027");
 formatter.feature({
   "line": 1,
   "name": "Life of IT developer",
@@ -40,57 +40,21 @@ formatter.step({
   "name": "He is a good person",
   "keyword": "But "
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Microsoft",
-      "offset": 10
-    }
-  ],
-  "location": "HolyDeveloper.I_work_in_microsoft(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 326898899,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Bill Gates",
-      "offset": 7
-    }
-  ],
-  "location": "HolyDeveloper.when_I_meet(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 171672,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "hesitate",
-      "offset": 2
-    }
-  ],
-  "location": "HolyDeveloper.then_I(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 146014,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "good",
-      "offset": 8
-    }
-  ],
-  "location": "HolyDeveloper.he_is_a(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 148347,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenario({
   "line": 15,
@@ -126,65 +90,160 @@ formatter.step({
   "name": "He is a wise person",
   "keyword": "But "
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Apple",
-      "offset": 10
-    }
-  ],
-  "location": "HolyDeveloper.I_work_in_microsoft(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 271503,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Steve Jobs",
-      "offset": 7
-    }
-  ],
-  "location": "HolyDeveloper.when_I_meet(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 134352,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "scream",
-      "offset": 2
-    }
-  ],
-  "location": "HolyDeveloper.then_I(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 133885,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "wise",
-      "offset": 8
-    }
-  ],
-  "location": "HolyDeveloper.he_is_a(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 172605,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.uri("\u0027package2\\tester.feature\u0027");
+formatter.uri("\u0027tester.feature\u0027");
 formatter.feature({
   "line": 1,
   "name": "Life of IT tester",
   "description": "\r\nIn order to get good salary\r\nAs a IT guy \r\nI want to keep my boss happy",
   "id": "life-of-it-tester",
   "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "line": 8,
+  "name": "I am a tester",
+  "description": "",
+  "id": "life-of-it-tester;i-am-a-tester",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 7,
+      "name": "@tester"
+    }
+  ]
+});
+formatter.step({
+  "line": 9,
+  "name": "I am a \"\u003cTesterType\u003e\" tester",
+  "rows": [
+    {
+      "cells": [
+        "Industry",
+        "Country"
+      ],
+      "line": 10
+    },
+    {
+      "cells": [
+        "IT",
+        "India"
+      ],
+      "line": 11
+    },
+    {
+      "cells": [
+        "Automobile",
+        "Germany"
+      ],
+      "line": 12
+    }
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 13,
+  "name": "I go to work",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 14,
+  "name": "I \"\u003cWork_Output\u003e\" it",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 15,
+  "name": "My boss \"\u003cBoss_Action\u003e\" me",
+  "rows": [
+    {
+      "cells": [
+        "Country"
+      ],
+      "line": 16
+    },
+    {
+      "cells": [
+        "USA"
+      ],
+      "line": 17
+    },
+    {
+      "cells": [
+        "Finland"
+      ],
+      "line": 18
+    }
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 20,
+  "name": "The developer \"\u003cDeveloper_Action\u003e\" me",
+  "keyword": "But "
+});
+formatter.examples({
+  "line": 22,
+  "name": "",
+  "description": "",
+  "id": "life-of-it-tester;i-am-a-tester;",
+  "rows": [
+    {
+      "cells": [
+        "TesterType",
+        "Work_Output",
+        "Boss_Action",
+        "Developer_Action"
+      ],
+      "line": 23,
+      "id": "life-of-it-tester;i-am-a-tester;;1"
+    },
+    {
+      "cells": [
+        "Bad",
+        "Messes",
+        "Hates",
+        "Likes"
+      ],
+      "line": 24,
+      "id": "life-of-it-tester;i-am-a-tester;;2"
+    },
+    {
+      "cells": [
+        "Good",
+        "Completes",
+        "Salutes",
+        "Hates"
+      ],
+      "line": 25,
+      "id": "life-of-it-tester;i-am-a-tester;;3"
+    },
+    {
+      "cells": [
+        "Average",
+        "Sufficient",
+        "Congrates",
+        "Respects"
+      ],
+      "line": 26,
+      "id": "life-of-it-tester;i-am-a-tester;;4"
+    }
+  ],
+  "keyword": "Examples"
 });
 formatter.scenario({
   "line": 24,
@@ -280,64 +339,25 @@ formatter.step({
   ],
   "keyword": "But "
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Bad",
-      "offset": 8
-    }
-  ],
-  "location": "HolyTester.I_am_a_bad_tester(String,DataTable)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 2191150,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "HolyTester.i_go_to_work()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 103097,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Messes",
-      "offset": 3
-    }
-  ],
-  "location": "HolyTester.i_mess_with_it(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 130154,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Hates",
-      "offset": 9
-    }
-  ],
-  "location": "HolyTester.my_boss_fires_me(String,DataTable)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 327483,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Likes",
-      "offset": 15
-    }
-  ],
-  "location": "HolyTester.the_developer_likes_me(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 134352,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenario({
   "line": 25,
@@ -433,64 +453,25 @@ formatter.step({
   ],
   "keyword": "But "
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Good",
-      "offset": 8
-    }
-  ],
-  "location": "HolyTester.I_am_a_bad_tester(String,DataTable)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 462301,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "HolyTester.i_go_to_work()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 86769,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Completes",
-      "offset": 3
-    }
-  ],
-  "location": "HolyTester.i_mess_with_it(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 164208,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Salutes",
-      "offset": 9
-    }
-  ],
-  "location": "HolyTester.my_boss_fires_me(String,DataTable)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 369002,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Hates",
-      "offset": 15
-    }
-  ],
-  "location": "HolyTester.the_developer_likes_me(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 155344,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenario({
   "line": 26,
@@ -586,63 +567,24 @@ formatter.step({
   ],
   "keyword": "But "
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Average",
-      "offset": 8
-    }
-  ],
-  "location": "HolyTester.I_am_a_bad_tester(String,DataTable)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 471165,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "HolyTester.i_go_to_work()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 92367,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Sufficient",
-      "offset": 3
-    }
-  ],
-  "location": "HolyTester.i_mess_with_it(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 253309,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Congrates",
-      "offset": 9
-    }
-  ],
-  "location": "HolyTester.my_boss_fires_me(String,DataTable)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 365736,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Respects",
-      "offset": 15
-    }
-  ],
-  "location": "HolyTester.the_developer_likes_me(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 129687,
-  "status": "passed"
+  "status": "undefined"
 });
 });

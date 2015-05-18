@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite failures="0" id="0" name="" package="" tests="5">
+    <testcase classname="Life of IT developer" name="I am a java developer" time="0">
+      <skipped><![CDATA[Given I work in Microsoft..........................................................undefined
+When I meet Bill Gates...........................................................undefined
+Then I hesitate...............................................................undefined
+But He is a good person...........................................................undefined
+]]></skipped>
+
+    </testcase>
+
+    <testcase classname="Life of IT developer" name="I am a linux developer" time="0">
+      <skipped><![CDATA[Given I work in Apple............................................................undefined
+When I meet Steve Jobs...........................................................undefined
+Then I scream................................................................undefined
+But He is a wise person...........................................................undefined
+]]></skipped>
+
+    </testcase>
+
+    <testcase classname="Life of IT tester" name="I am a tester_3" time="0">
+      <skipped><![CDATA[Given I am a "Bad" tester..........................................................undefined
+When I go to work..............................................................undefined
+Then I "Messes" it.............................................................undefined
+And My boss "Hates" me...........................................................undefined
+But The developer "Likes" me........................................................undefined
+]]></skipped>
+
+    </testcase>
+
+    <testcase classname="Life of IT tester" name="I am a tester_2" time="0">
+      <skipped><![CDATA[Given I am a "Good" tester.........................................................undefined
+When I go to work..............................................................undefined
+Then I "Completes" it............................................................undefined
+And My boss "Salutes" me..........................................................undefined
+But The developer "Hates" me........................................................undefined
+]]></skipped>
+
+    </testcase>
+
+    <testcase classname="Life of IT tester" name="I am a tester_1" time="0">
+      <skipped><![CDATA[Given I am a "Average" tester........................................................undefined
+When I go to work..............................................................undefined
+Then I "Sufficient" it...........................................................undefined
+And My boss "Congrates" me.........................................................undefined
+But The developer "Respects" me.......................................................undefined
+]]></skipped>
+
+    </testcase>
+
+  </testsuite>
+</testsuites>
