@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("\u0027package2\\developer.feature\u0027");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("\u0027developer.feature\u0027");
 formatter.feature({
   "line": 1,
   "name": "Life of IT developer",
@@ -50,7 +50,7 @@ formatter.match({
   "location": "HolyDeveloper.I_work_in_microsoft(String)"
 });
 formatter.result({
-  "duration": 326898899,
+  "duration": 708132523,
   "status": "passed"
 });
 formatter.match({
@@ -63,7 +63,7 @@ formatter.match({
   "location": "HolyDeveloper.when_I_meet(String)"
 });
 formatter.result({
-  "duration": 171672,
+  "duration": 230453,
   "status": "passed"
 });
 formatter.match({
@@ -76,7 +76,7 @@ formatter.match({
   "location": "HolyDeveloper.then_I(String)"
 });
 formatter.result({
-  "duration": 146014,
+  "duration": 188468,
   "status": "passed"
 });
 formatter.match({
@@ -89,7 +89,7 @@ formatter.match({
   "location": "HolyDeveloper.he_is_a(String)"
 });
 formatter.result({
-  "duration": 148347,
+  "duration": 180537,
   "status": "passed"
 });
 formatter.scenario({
@@ -136,7 +136,7 @@ formatter.match({
   "location": "HolyDeveloper.I_work_in_microsoft(String)"
 });
 formatter.result({
-  "duration": 271503,
+  "duration": 437115,
   "status": "passed"
 });
 formatter.match({
@@ -149,7 +149,7 @@ formatter.match({
   "location": "HolyDeveloper.when_I_meet(String)"
 });
 formatter.result({
-  "duration": 134352,
+  "duration": 462306,
   "status": "passed"
 });
 formatter.match({
@@ -162,7 +162,7 @@ formatter.match({
   "location": "HolyDeveloper.then_I(String)"
 });
 formatter.result({
-  "duration": 133885,
+  "duration": 219724,
   "status": "passed"
 });
 formatter.match({
@@ -175,10 +175,10 @@ formatter.match({
   "location": "HolyDeveloper.he_is_a(String)"
 });
 formatter.result({
-  "duration": 172605,
+  "duration": 269173,
   "status": "passed"
 });
-formatter.uri("\u0027package2\\tester.feature\u0027");
+formatter.uri("\u0027tester.feature\u0027");
 formatter.feature({
   "line": 1,
   "name": "Life of IT tester",
@@ -290,14 +290,14 @@ formatter.match({
   "location": "HolyTester.I_am_a_bad_tester(String,DataTable)"
 });
 formatter.result({
-  "duration": 2191150,
+  "duration": 2330655,
   "status": "passed"
 });
 formatter.match({
   "location": "HolyTester.i_go_to_work()"
 });
 formatter.result({
-  "duration": 103097,
+  "duration": 137153,
   "status": "passed"
 });
 formatter.match({
@@ -310,7 +310,7 @@ formatter.match({
   "location": "HolyTester.i_mess_with_it(String)"
 });
 formatter.result({
-  "duration": 130154,
+  "duration": 236518,
   "status": "passed"
 });
 formatter.match({
@@ -323,7 +323,7 @@ formatter.match({
   "location": "HolyTester.my_boss_fires_me(String,DataTable)"
 });
 formatter.result({
-  "duration": 327483,
+  "duration": 723082,
   "status": "passed"
 });
 formatter.match({
@@ -336,7 +336,7 @@ formatter.match({
   "location": "HolyTester.the_developer_likes_me(String)"
 });
 formatter.result({
-  "duration": 134352,
+  "duration": 170741,
   "status": "passed"
 });
 formatter.scenario({
@@ -443,14 +443,14 @@ formatter.match({
   "location": "HolyTester.I_am_a_bad_tester(String,DataTable)"
 });
 formatter.result({
-  "duration": 462301,
+  "duration": 459973,
   "status": "passed"
 });
 formatter.match({
   "location": "HolyTester.i_go_to_work()"
 });
 formatter.result({
-  "duration": 86769,
+  "duration": 171207,
   "status": "passed"
 });
 formatter.match({
@@ -463,7 +463,7 @@ formatter.match({
   "location": "HolyTester.i_mess_with_it(String)"
 });
 formatter.result({
-  "duration": 164208,
+  "duration": 228587,
   "status": "passed"
 });
 formatter.match({
@@ -476,7 +476,7 @@ formatter.match({
   "location": "HolyTester.my_boss_fires_me(String,DataTable)"
 });
 formatter.result({
-  "duration": 369002,
+  "duration": 555606,
   "status": "passed"
 });
 formatter.match({
@@ -489,7 +489,7 @@ formatter.match({
   "location": "HolyTester.the_developer_likes_me(String)"
 });
 formatter.result({
-  "duration": 155344,
+  "duration": 194066,
   "status": "passed"
 });
 formatter.scenario({
@@ -596,14 +596,14 @@ formatter.match({
   "location": "HolyTester.I_am_a_bad_tester(String,DataTable)"
 });
 formatter.result({
-  "duration": 471165,
+  "duration": 713285,
   "status": "passed"
 });
 formatter.match({
   "location": "HolyTester.i_go_to_work()"
 });
 formatter.result({
-  "duration": 92367,
+  "duration": 132953,
   "status": "passed"
 });
 formatter.match({
@@ -616,7 +616,7 @@ formatter.match({
   "location": "HolyTester.i_mess_with_it(String)"
 });
 formatter.result({
-  "duration": 253309,
+  "duration": 148815,
   "status": "passed"
 });
 formatter.match({
@@ -629,7 +629,7 @@ formatter.match({
   "location": "HolyTester.my_boss_fires_me(String,DataTable)"
 });
 formatter.result({
-  "duration": 365736,
+  "duration": 354543,
   "status": "passed"
 });
 formatter.match({
@@ -642,7 +642,7 @@ formatter.match({
   "location": "HolyTester.the_developer_likes_me(String)"
 });
 formatter.result({
-  "duration": 129687,
+  "duration": 126423,
   "status": "passed"
 });
 });
